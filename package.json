@@ -1,0 +1,31 @@
+{
+  "name": "esbuild-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node serve.mjs",
+    "build": "node build.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaynetro/esbuild-starter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaynetro/esbuild-starter/issues"
+  },
+  "homepage": "https://github.com/zaynetro/esbuild-starter#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.25",
+    "esbuild-sass-plugin": "^1.5.2",
+    "postcss": "^8.3.6",
+    "postcss-modules": "^4.2.2",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "preact": "^10.5.14"
+  }
+}

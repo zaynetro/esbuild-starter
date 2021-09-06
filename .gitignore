@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+*.tern-port
+node_modules/
+npm-debug.log*
+*.tsbuildinfo
+.npm
+
+dist/

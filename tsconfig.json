@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "jsx": "react",
+        "jsxFactory": "h",
+        "jsxFragmentFactory": "h.Fragment",
+        "lib": ["es5", "es6", "dom"],
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "typeRoots": [ "src/global.d.ts" ]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "**/*.test.ts",
+        "**/*.test.tsx"
+    ]
+}
