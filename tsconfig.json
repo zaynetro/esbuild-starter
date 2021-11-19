@@ -17,7 +17,7 @@
         "isolatedModules": true,
         "experimentalDecorators": true,
         "resolveJsonModule": true,
-        "typeRoots": [ "src/global.d.ts" ]
+        "typeRoots": [ "src/global.d.ts", "node_modules/@types" ]
     },
     "include": [
         "./src/**/*"
